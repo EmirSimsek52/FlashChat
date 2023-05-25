@@ -20,7 +20,7 @@ function Home() {
     <h1 className="text-color1 font-[600] text-6xl text-center mt-4  "> FLASHCHAT</h1>
     <div 
     className='m-8 bg-color3 text-white sm:text-xl text-sm   sm:w-[1200px] w-[380px]  
-    flex self-center sm:h-[650px] h-[930px] sm:flex-row flex-col rounded-xl   '>
+    flex self-center sm:h-[650px] h-[980px] sm:flex-row flex-col rounded-xl   '>
    
       <Search/>
       <div>

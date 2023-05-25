@@ -1,6 +1,6 @@
 import React,{useContext, useState} from 'react';
 import { db } from "../firebase";
-import {IoFingerPrintOutline,IoSendSharp } from "react-icons/io5";
+import {IoFingerPrintOutline,IoSendSharp,IoPersonAdd } from "react-icons/io5";
 import {
     collection,
     query,
@@ -98,9 +98,10 @@ function Search() {
   </div>
     {err && <span>User not found!</span>}
     {user && 
-     <div className='flex flex-row border-b-2 ml-2 w-[210px] hover:opacity-40 duration-300 cursor-pointer items-center ' onClick={handleSelect}>
+     <div className='flex flex-row border-b-2 border-color1 sm:ml-2 ml-0 sm:w-[210px] w-[150px]  cursor-pointer items-center ' >
            <img src={user.photoURL} className='w-12 h-12 rounded-lg' />
-           <span className=' mt-5 ml-3'>{user.displayName}</span>
+           <span className=' mt-5 sm:ml-3 ml-0'>{user.displayName}</span>
+          <IoPersonAdd size={30} className='text-color1 hover:opacity-40 duration-300 sm:ml-16 ml-5' onClick={handleSelect} />
            </div>
     }
   <Chats/>

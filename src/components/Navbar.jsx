@@ -47,7 +47,7 @@ function Navbar(){
               <button
               onClick={()=>signOut(auth)}
               className=' px-2 border-2 border-white hover:bg-color1 hover:border-color1 hover:px-4 duration-300'>
-                <Link to="/welcome">
+                <Link to="/login">
                   Logout
                 </Link>
               </button>
@@ -72,7 +72,7 @@ function Navbar(){
         {/* Mobile Menu */}
         <motion.div 
        animate={animateX()}
-        className={nav ? 'bg-color3 py-1 px-2 rounded-3x2 w-full  text-white absolute top-[90px] left-0 flex justify-center text-center' : 
+        className={nav ? 'bg-color3 py-1 px-2 rounded-3x2 w-full border-t-2 border-color1  text-white absolute top-[90px] left-0 flex justify-center text-center' : 
     'absolute left-[-100%]'}>
           <ul>
           
@@ -91,7 +91,7 @@ function Navbar(){
               <button
               onClick={()=>signOut(auth)}
               className=' px-3 border-2 border-white hover:bg-color1 hover:border-color1 duration-300'>
-                <Link to="/welcome">
+                <Link to="/login">
                   Logout
                 </Link>
               </button>

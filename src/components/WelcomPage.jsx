@@ -11,10 +11,8 @@ function WelcomPage() {
         <h1 className='text-color1 mt-10 sm:text-[100px] text-[60px] text-center font-bold justify-center'>WELCOME</h1>
         <h1  className='text-color1 sm:mt-[-60px] mt-[-40px] sm:text-[100px] text-[60px] text-center font-bold justify-center'>FLASHCHAT</h1>
         <label className='text-[white] items-center sm:m-0 m-5'> 
-            Explore the metaverse, a revolutionary digital realm where<br/> imagination knows no bounds.
-            Immerse yourself in virtual experiences, 
-            connect <br/>with a global community,
-            and unlock endless possibilities in the metaverse.
+        Introducing the perfect chat app for seamless communication! <br/> Connect effortlessly with friends and loved ones, and enjoy a user-friendly interface
+         <br/>that makes staying in touch a breeze.  Let's get start and experience the joy of effortless conversations.
         </label>
         <p/>
         <button 
